@@ -17,3 +17,9 @@ Some key elements we will be looking for in the application are:
 *	Submissions for the Android platform may only use third party libraries or open source code for the purpose of unit testing.
 *	For other platforms the use of frameworks, libraries, and open-source code is allowed – but please reference their use in comments in the code. Please use package management for open source dependencies where suitable. 
 *	When complete, please fork this repository, commit your code via the GIT tools, and send us a pull request. 
+
+##A Short Howto
+###Used an open-source third-party library for JSON handling in Swift 2
+*	Before opening the Xcode project , run 'pod install' to install the third-party library
+*	open 'AnotherWeather.xcworkspace' after pod installing third-party library successfully
+*	build and run
